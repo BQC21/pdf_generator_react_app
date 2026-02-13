@@ -25,3 +25,5 @@
 ```shell
     npm run dev
 ```
+
+![Aplicación corriendo en línea](/src/assets/app_running.png)
