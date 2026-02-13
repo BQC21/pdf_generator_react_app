@@ -20,7 +20,8 @@ function App() {
         id="logo_tec" alt="TEC Logo" 
         className='logo_tec_img'
         />
-        <p>Bienvenido al generador de cotizaciones del TEC, aquí podrás crear cotizaciones personalizadas para tus clientes de manera rápida y sencilla.</p>
+        <p>Bienvenido al generador de cotizaciones del TEC, aquí podrás crear cotizaciones 
+          personalizadas para tus clientes de manera rápida y sencilla.</p>
       </div>
 
       <div className='nuclear'>
