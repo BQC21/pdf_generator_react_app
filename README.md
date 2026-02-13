@@ -21,5 +21,5 @@ o usando SSH
 3. Ejecutar el servidor
 
 ```shell
-    npm start
+    npm run dev
 ```
