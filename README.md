@@ -14,13 +14,13 @@
     git clone git@github.com:BQC21/Automate_excel.git
 ```
 
-1. Instalar las dependencias 
+2. Instalar las dependencias 
 
 ```shell
     npm install
 ```
 
-1. Ejecutar el servidor
+3. Ejecutar el servidor
 
 ```shell
     npm run dev
