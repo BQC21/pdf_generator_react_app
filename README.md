@@ -2,23 +2,25 @@
 
 1. Clonar el repositorio
 
+- Usando HTTPs
+
 ```shell
     git clone https://github.com/BQC21/Automate_excel.git
 ```
 
-o usando SSH
+- Usando SSH
 
 ```shell
     git clone git@github.com:BQC21/Automate_excel.git
 ```
 
-2. Instalar las dependencias 
+1. Instalar las dependencias 
 
 ```shell
     npm install
 ```
 
-3. Ejecutar el servidor
+1. Ejecutar el servidor
 
 ```shell
     npm run dev
