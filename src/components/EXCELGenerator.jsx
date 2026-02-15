@@ -1,17 +1,16 @@
 import React from "react";
-import '../styles/App.css';
 
 export default function EXCELGenerator() {
   return (
     <>
-    <div className="Excel_card">
-      <h2>1) Suba su archivo Excel</h2>
+    <section className="card">
+        <h2>1) Suba su archivo Excel</h2>
 
-      <label class="field">
-        <input id="excelFile" type="file" accept=".xlsx,.xlsm,.xls" />
-        <small class="hint">Formatos: .xlsx / .xlsm / .xls</small>
-      </label>
-    </div>
+        <label className="field">
+          <input id="excelFile" type="file" accept=".xlsx,.xlsm,.xls" />
+          <small className="hint">Formatos permitidos: .xlsx / .xlsm / .xls</small>
+        </label>
+    </section>
     </>
   );
 }

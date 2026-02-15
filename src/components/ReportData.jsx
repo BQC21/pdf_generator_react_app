@@ -1,12 +1,11 @@
 import React from "react";
-import '../styles/App.css';
 
 export default function ReportData() {
   return (
     <>
-    <div className="Report_card">
+    <section className="Report_card">
       <h2>2) Ingrese los datos del reporte </h2>
-      
+      <div class="grid">
         <label class="field">
           <span>Cliente</span>
           <input id="cliente" type="text" placeholder="Ej: EGE Junín" />
@@ -36,7 +35,9 @@ export default function ReportData() {
           <span>Atención</span>
           <input id="Atencion" type="text" placeholder="Ej: Ing. Juan Oré" />
         </label>
-    </div>
+      </div>
+      <hr class="sep" />
+    </section>
     </>
   );
 }
